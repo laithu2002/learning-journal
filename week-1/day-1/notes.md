@@ -36,3 +36,17 @@ Today I stopped being confused about Git and actually used it.
 
 today i learned how git log and git status actually work.
 
+
+
+
+
+
+
+
+
+
+
+\### Day 1 Screenshot
+
+!\[Day 1 commit](../../images/day-1 screenshot.png)
+
