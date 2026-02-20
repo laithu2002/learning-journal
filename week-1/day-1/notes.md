@@ -30,3 +30,9 @@
 
 Today I stopped being confused about Git and actually used it.
 
+
+
+
+
+today i learned how git log and git status actually work.
+
