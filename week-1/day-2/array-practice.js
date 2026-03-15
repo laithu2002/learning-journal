@@ -14,3 +14,15 @@ const productNames = products.map(function(product) {
 })
 
 console.log(productNames);
+
+// What .map() does:
+// It loops through every item in the array, does something to it,
+// and returns a NEW array with the results.
+// Here we looped through every product and pulled out just the name.
+// The word "product" represents one item at a time as it loops through.
+
+// ---------------------------------------------------------------------
+
+
+
+
