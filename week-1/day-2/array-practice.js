@@ -9,11 +9,13 @@ const products = [
 
 
 // Exercise 1: .map()
-const productNames = products.map(function(product) {
-	return product.name;
-})
+// const productNames = products.map(function(product) {
+//	return product.name;
+// })
 
-console.log(productNames);
+// console.log(productNames);
+
+
 
 // What .map() does:
 // It loops through every item in the array, does something to it,
@@ -24,5 +26,22 @@ console.log(productNames);
 // ---------------------------------------------------------------------
 
 
+// Exercise 2: .filter()
+const inStockProd = products.filter(function(product) {
+	if (product.inStock == true) {
+	return product;
+}
+})
+
+console.log(inStockProd);
+
+
+
+// What .filter() does:
+// It loops through every item in the array, checks a condition,
+// and returns a NEW array with only the items that pass the condition.
+// Here we checked if inStock was true and returned only those products.
+
+// ---------------------------------------------------------------------
 
 
