@@ -27,13 +27,13 @@ const products = [
 
 
 // Exercise 2: .filter()
-const inStockProd = products.filter(function(product) {
-	if (product.inStock == true) {
-	return product;
-}
-})
+// const inStockProd = products.filter(function(product) {
+//	if (product.inStock == true) {
+//	return product;
+// }
+// })
 
-console.log(inStockProd);
+// console.log(inStockProd);
 
 
 
@@ -44,4 +44,13 @@ console.log(inStockProd);
 
 // ---------------------------------------------------------------------
 
+
+// Exercise 3: .filter() with 2 conditions
+const conditionalProd = products.filter(function(product) {
+	if ((product.inStock == true) && (product.category == "Electronics")) {
+	return product;
+}
+})
+
+console.log(conditionalProd);
 
